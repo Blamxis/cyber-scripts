@@ -1,0 +1,7 @@
+admin
+admin123
+123456
+password
+ftp
+toor
+guest
