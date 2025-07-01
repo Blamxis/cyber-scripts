@@ -21,20 +21,22 @@ Ce script peut t’aider à :
 ```bash
 python port_scanner.py
 
+```
+
 ---
 
-⚠️ Avertissement légal 
+## ⚠️ Avertissement légal 
 
-⚠️ Ce script est à but pédagogique uniquement.
+# ⚠️ Ce script est à but pédagogique uniquement.
 
 Tu ne dois scanner que des machines que tu possèdes ou pour lesquelles tu as une autorisation explicite.
 
-📌 Un exemple de machine que tu peux utiliser légalement pour tester :
-👉 scanme.nmap.org (fournie par les créateurs de Nmap, autorisée aux scans publics simples).
+- 📌 Un exemple de machine que tu peux utiliser légalement pour tester :
+- 👉 scanme.nmap.org (fournie par les créateurs de Nmap, autorisée aux scans publics simples).
 
 👤 Auteur
 
-Nom : Maxime
+- Nom : Maxime
 
-GitHub : @Blamxis
+- GitHub : @Blamxis
 
