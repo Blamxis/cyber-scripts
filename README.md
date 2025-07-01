@@ -1,17 +1,20 @@
-# 🔎 Mini Scanner de Ports (Projet Cybersécurité débutant)
+# 🔐 cyber-scripts – Projets Cybersécurité Débutant
 
-Bienvenue ! Ce petit script Python scanne quelques ports sur une machine (via son IP) et te dit s’ils sont ouverts ou non.
+Bienvenue dans ce petit repo de scripts Python orientés cybersécurité !  
+Chaque script a pour but d’apprendre en développant des outils simples, concrets et utiles pour découvrir le monde de la sécurité informatique.
 
 ---
 
-## 📌 À quoi ça sert ?
+## 🧰 Scripts inclus dans ce projet
 
-Ce script peut t’aider à :
+### 1. `port_scanner.py` – Scanner de ports TCP
+
+Ce script teste une liste de ports (comme 22, 80, 443...) sur une adresse IP et indique ceux qui sont ouverts ou fermés.
+
+📌 Objectif :
 - Comprendre comment fonctionne un scanner de ports
-- Détecter si certains services sont actifs sur une machine (comme un serveur web ou SSH)
-- Apprendre les bases du réseau en Python
-
----
+- S’initier à `socket` en Python
+- Identifier les services accessibles sur une machine
 
 ## ⚙️ Comment l’utiliser ?
 
@@ -33,8 +36,37 @@ Ce script envoie une requête HTTP vers une URL et affiche les **en-têtes HTTP*
 - Détecter certains en-têtes de sécurité (comme `X-Frame-Options`, `Content-Type`, etc.)
 - Pratiquer les requêtes HTTP avec `requests`
 
+## ⚙️ Comment l’utiliser ?
+
+1. Ouvre un terminal
+2. Lance le script :
+
+```bash
+python http_headers.py
+
+```
 ---
 
+### 3. `ftp_bruteforce.py` – Bruteforce d'accès FTP (par dictionnaire)
+
+Ce script tente de se connecter à un serveur FTP en testant une série de mots de passe à partir d’un fichier `.txt` (wordlist).
+
+📌 Objectif :
+- Comprendre le principe du bruteforce
+- Manipuler la lib `ftplib` pour se connecter à un FTP
+- Automatiser une attaque par dictionnaire
+
+## ⚙️ Comment l’utiliser ?
+
+1. Ouvre un terminal
+2. Lance le script :
+
+```bash
+python ftp_bruteforce.py
+
+```
+
+---
 ## ⚠️ Avertissement légal 
 
 ⚠️ **Ce script est à but pédagogique uniquement.**
